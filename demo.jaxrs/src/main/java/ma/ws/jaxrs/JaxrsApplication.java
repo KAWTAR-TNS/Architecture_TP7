@@ -11,9 +11,9 @@ import org.springframework.context.annotation.Bean;
 import java.util.Date;
 
 @SpringBootApplication
-public class MsBanqueApplication {
+public class JaxrsApplication{
 	public static void main(String[] args) {
-		SpringApplication.run(MsBanqueApplication.class, args);
+		SpringApplication.run(JaxrsApplication.class, args);
 	}
 
 	@Bean
