@@ -17,9 +17,8 @@ public class Compte {
     private Long id;
     private double solde;
     private LocalDate dateCreation;
-    @Enumerated(EnumType.ORDINAL)
+    @Enumerated(EnumType.STRING)
     private TypeCompte type;
 
-    public Compte(Long id, double solde, Date date, TypeCompte typeCompte) {
-    }
+
 }
