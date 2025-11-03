@@ -1,5 +1,6 @@
 package ma.ws.jaxrs.config;
 
+import com.fasterxml.jackson.core.util.JacksonFeature;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
